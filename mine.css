@@ -1,14 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(to right, teal, gray);
+    background: url(o.jpg);
     background-size: cover;
 }
 
 header {
     background-color: #0a16bb;
     padding: 20px 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 56px;
     color: #fff;
@@ -17,19 +17,17 @@ header {
     
 }
 
-
-
 .header-content {
     max-width: 960px;
     margin: 0 auto;
 }
 h1 {
     margin-top: 20px;
-    font-size: 36px;
-    color: #0f0f0f;
+    font-size: 56px;
+    color: #0e0d0d;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
     text-transform: uppercase;
-    animation: ;
 }
 .gallery-container {
     max-width: 800px;
@@ -81,7 +79,7 @@ iframe {
 }
 
 nav {
-    background-color: #88082e;
+    background-color: #b6083d;
     padding: 10px 0;
     width: 100%;
     margin: 0px;
@@ -101,15 +99,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
     color: yellow;
     font-weight: bold;
 }
-nav ul li a:hover{
+nav ul li:hover{
     background-color: #b6083d;
     border: 1px solid #DAFFFB;
-    transform: translateX(5px);
 }
 .dropdown {
     position: relative;
@@ -136,13 +131,10 @@ nav ul li a:hover{
 
 main {
     padding: 20px;
-    text-align: center;
 }
 
-
-
 footer {
-    background-color: #49061a;
+    background-color: #b6083d;
     color: yellow;
     text-align: center;
     padding: 10px;
